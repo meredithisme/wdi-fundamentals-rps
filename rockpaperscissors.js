@@ -92,7 +92,6 @@ function playToFive() {
     /* YOUR CODE HERE */
   var ties = 0;
     while ((playerWins < 5) && (computerWins < 5) && (ties < 10)) {
-        console.log('looping');
         var playersAction = getPlayerMove(null);
         var computersAction = getComputerMove(null);
         var whoWon = getWinner(playersAction, computersAction);
